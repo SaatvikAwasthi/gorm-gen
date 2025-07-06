@@ -27,11 +27,8 @@ This project demonstrates how to use [GORM Gen](https://gorm.io/gen/) for type-s
 
 ### Installation
 
-Clone the repository:
-
 ```sh
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+go get -u gorm.io/gorm gorm.io/driver/sqlite gorm.io/gen
 go mod tidy
 ```
 
